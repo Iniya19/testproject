@@ -1,11 +1,16 @@
+//base
 @import './base/common';
 
+//components
 @import './components/button';
 @import './components/container';
 
+//utilities
 @import './utilities/variables';
 @import './utilities/visually-hidden';
+@import './utilities/socials';
 
+//layout
 @import './layout/header';
 @import './layout/hero';
 @import './layout/products';

@@ -4,8 +4,6 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
 
-  color: $colorFont-red;
-
   @media screen and (min-width: 768px) {
     font-size: 48px;
   }
@@ -20,10 +18,7 @@
 .section__label {
   font-size: 18px;
   line-height: 1.16;
-
   text-transform: uppercase;
-
-  color: $colorFont-pink;
 
   @media screen and (min-width: 768px) {
     font-size: 26px;

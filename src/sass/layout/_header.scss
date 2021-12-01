@@ -45,7 +45,7 @@
   
     &:hover,
     &:focus {
-      background-color: $buttonColor-Hover-gray;
+      background-color: $trans-duration $timing-function;
     }
   }
 

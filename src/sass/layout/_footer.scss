@@ -1,15 +1,16 @@
 .footer {
-    background: $light-pink-background; 
+  background: $light-pink-background;
 }
 
-.container__footter {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  }
 .footter__duplicate-header {
   width: 234px;
   margin-bottom: 50px;
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    width: 340px;
+  }
+  @media screen and (min-width: 769px) {
+    width: 474px;
+  }
 }
 
 .footter__duplicate-header--pink {
@@ -89,8 +90,7 @@ hr {
   line-height: 1.88;
   color: #907e82;
   text-align: center;
-  padding: 0, 10px;
+  padding: 25px;
   margin-left: 79px;
   margin-right: 91px;
-  margin-bottom: 25px;
 }

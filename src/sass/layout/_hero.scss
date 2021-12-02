@@ -140,7 +140,7 @@
   position: absolute;
   top: 107px;
   right: 32px;
-  @media screen and (min-width: $tablet) and (max-width: 1279px) {
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
     top: 20px;
   }
   @media screen and (min-width: $tablet) {

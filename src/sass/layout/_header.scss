@@ -6,8 +6,8 @@
 
 .header__container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   position: relative;
 
   padding-top: 6px;
@@ -15,7 +15,7 @@
   z-index: 2;
 
   @media screen and (min-width: $tablet){
-    padding-top: 31px;
+    padding-top: 38px;
   }
 }
 
@@ -63,11 +63,6 @@
     border-radius: 22px;
   
     transition: background-color $timing-function $trans-duration;
-  
-    &:hover,
-    &:focus {
-      background-color: $trans-duration $timing-function;
-    }
   }
 
   .modal-btn__icon {
@@ -84,11 +79,12 @@
   @media screen and (min-width: 1280px) {
     .modal-btn {
       margin-left: auto;
-      transition-property: background-color;
-      transition: $trans-duration $timing-function;
-      box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, 0.25);
+  
+      transition: 250ms $timing-function;  
+      transition-property: background-color, box-shadow;
       &:hover,
       &:focus{
+        box-shadow: 2px 5px 2px 1px rgba(0, 0, 0, 0.25);  
         background-color: $buttonColor-Hover-gray;
       }
   }
@@ -120,8 +116,8 @@
   
   color: $colorFont-white;
 
-  transition-property: color;
   transition: $trans-duration $timing-function;
+    transition-property: color;
   &:hover,
   &:focus{
     color: $colorFont-red;
@@ -131,7 +127,7 @@
 .logo-img{
   @media screen and (min-width: $desktop){
   position: absolute;
-  top: 28px;
+  top: 35px;
   left: 45px;
   }
 }
@@ -156,7 +152,7 @@
   background-color: $pink-mobile-menu-background;
 
   transition: transform $trans-duration $timing-function;
-  z-index: 100;
+  z-index: 2;
   @media screen and (min-width: $desktop){
     display: none;
     pointer-events: none;

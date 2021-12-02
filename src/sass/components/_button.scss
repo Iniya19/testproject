@@ -3,8 +3,8 @@
     font-weight: 700;
     line-height: 1.31;
     letter-spacing: 0.06em;
-    color: var(--accentColor);
-    background-color: var(--primaryTextColor);
+    color: #d41443;
+    background-color: #fff;
   
     border-radius: 22px;
     border-style: none;
@@ -15,9 +15,9 @@
     }
   
     &--red {
-      background-color: var(--accentColor);
+      background-color: #d41443;
   
-      color: var(--primaryTextColor);
+      color: #fff;
   
       &:hover,
       &:focus {

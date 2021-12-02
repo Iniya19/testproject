@@ -11,7 +11,7 @@
     padding-bottom: 140px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     padding-left: 115px;
     padding-right: 115px;
   }
@@ -20,16 +20,27 @@
 .advantages__list {
   @media screen and (min-width: 768px) {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: -60px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-left: -30px;
   }
 }
 
 .advantages__item {
-  width: 230px;
+  display: block;
+  max-width: 230px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 180px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 330px;
+  }
 
   &:not(:last-child) {
     margin-bottom: 38px;
@@ -44,7 +55,7 @@
     margin-left: 60px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
   }
@@ -73,7 +84,7 @@
     line-height: 1.15;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 15px;
 
     font-size: 58px;
@@ -85,7 +96,7 @@
     width: auto;
     height: 50px;
     margin-bottom: 16px;
-    background-image: url('./../images/customer3.jpg');
+    background-image: url('./../images/advantage-icon1.png');
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -93,7 +104,7 @@
       margin-bottom: 36px;
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
       margin-bottom: 40px;
     }
   }
@@ -103,7 +114,7 @@
     width: auto;
     height: 50px;
     margin-bottom: 16px;
-    background-image: url('./../images/customer2.jpg');
+    background-image: url('./../images/advantage-icon2.png');
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -111,7 +122,7 @@
       margin-bottom: 36px;
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
       margin-bottom: 40px;
     }
   }
@@ -121,7 +132,7 @@
     width: auto;
     height: 50px;
     margin-bottom: 16px;
-    background-image: url('./../images/customer1.jpg');
+    background-image: url('./../images/advantage-icon3.png');
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -129,7 +140,7 @@
       margin-bottom: 36px;
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
       margin-bottom: 40px;
     }
   }
@@ -147,7 +158,7 @@
     line-height: 1.74;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 16px;
     line-height: 1.76;
   }

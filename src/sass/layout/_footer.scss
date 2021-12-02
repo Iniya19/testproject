@@ -1,0 +1,67 @@
+.container__footter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.footter__duplicate-header {
+  margin-bottom: 50px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-bottom: 46px;
+}
+
+.footer__contact-text {
+  margin-bottom: 46px;
+  margin-right: 20px;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.83;
+  text-align: right;
+
+  color: #000000;
+}
+
+.footer__phone {
+  font-family: DM Sans;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.83;
+  color: #d41443;
+}
+
+hr {
+  border: none;
+  background-color: #e1e1e1;
+  color: #e1e1e1;
+  height: 1px;
+  margin-bottom: 22px;
+}
+
+.footer__copyright {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.88;
+  color: #907e82;
+  text-align: center;
+  padding: 0, 10px;
+  margin-left: 79px;
+  margin-right: 91px;
+  margin-bottom: 25px;
+}
+.copyright-text {
+  @media screen and (max-width: 479px) {
+    span {
+      display: block;
+      &::before {
+        content: attr(text-wrap);
+      }
+    }
+  }
+}

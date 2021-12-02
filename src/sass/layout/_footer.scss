@@ -1,18 +1,25 @@
+.footer {
+    background: $light-pink-background; 
+}
+
 .container__footter {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  }
+.footter__duplicate-header {
+  width: 234px;
+  margin-bottom: 50px;
 }
 
-.footter__duplicate-header {
+.footter__duplicate-header--pink {
   font-family: Titan One;
   line-height: 1, 14;
   text-align: left;
   vertical-align: top;
   color: #ffa5ba;
   font-size: 18px;
-  margin-bottom: 50px;
-
+  padding-bottom: 20px;
   @media screen and (min-width: 480px) and (max-width: 768px) {
     font-size: 26px;
     letter-spacing: 4%;
@@ -24,6 +31,10 @@
 }
 
 .footter__duplicate-header--red {
+  font-family: Titan One;
+  line-height: 1, 14;
+  text-align: left;
+  vertical-align: top;
   font-size: 34px;
   letter-spacing: 4%;
   color: #d41443;
